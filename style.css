@@ -1,0 +1,29 @@
+h1, h2{
+    text-align: center;
+    color: green;
+}
+body{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+button{
+    display: flex;
+}
+nav{
+    text-align: center;
+}
+li{
+    display: flex;
+    display: inline;
+    text-align: center;
+    padding-left: 50px;
+}
+p{
+    text-align: center;
+}
+
+/* also i am confusion */
+/* .topnav a:hover{
+    
+
+} */
