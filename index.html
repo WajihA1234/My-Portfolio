@@ -5,32 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Welcome To Wajihs Portfolio</h1>
     <nav class = "navbar">
         <ul class="navbar-links">
-           <li><a class="navbar-link" href="#"></a>Home</li>
-           <li><a href="#"></a>Bio</li>
-           <li><a href="#"></a>Resume</li>
-           <li><a href="#"></a>Projects</li>
-           <li><a href="#"></a>Links</li>
+           <li class="homeLink">
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <ul class="extra">
+                    <li>
+                        <a href="#main">Bio</a>
+                    </li>
+                   <li>
+                        <a href="#resume">Resume</a>
+                    </li>
+                   <li>
+                        <a href="#projects">Projects</a>
+                    </li>
+                   <li>
+                        <a href="#links">Links</a>
+                    </li>
+                </ul>
+            </li>
+            <li id="hamburgerMenu">
+                <span class="material-symbols-outlined">
+                    menu
+                    </span>
+            </li>
         </ul>
     </nav>
-    <h2>Bio</h2>
-    <p>something something something</p>
-
-    <h2>Resume</h2>
-    <p>my resume</p>
-
+    <div id="main">
+        <h2>Bio</h2>
+            <p>What is Lorem Ipsum?
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        
+        Why do we use it?
+        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+        
+        
+        Where does it come from?
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+        
+        The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+    </div>
+    <div id="resume">
+        <h2>Resume</h2>
+        <p>What is Lorem Ipsum?
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            
+            Why do we use it?
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+            
+            
+            Where does it come from?
+            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+            
+            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+    </div>
+    <div id="projects">
     <h2>Projects</h2>
-    <p>all my pjs</p>
-
+    <div><img src="data:image/jpeg;base64,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" alt=""><p>1</p></div>
+    <div>2</div>
+    <div>3</div>
+    <p>placeholder</p>
+    </div>
+    <div id="links">
     <h2>Links</h2>
     <p>links to github and linkedIN</p>
     <button id="LI">linkedIN</button>
     <button id="GH">Github</button> 
+    </div>
 
     <script src="app.js"></script>
 </body>

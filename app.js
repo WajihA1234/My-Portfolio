@@ -11,3 +11,11 @@
  otherSocial.addEventListener('click', function() {
     window.open('https://github.com/WajihA1234')
  });
+
+const hamburger = document.querySelector("#hamburgerMenu");
+const hidden = document.querySelector('.extra');
+
+hamburger.addEventListener('click', function(){
+    hidden.style.display = hidden.style.display == "none" ? "flex" : "none";
+})
+ 
